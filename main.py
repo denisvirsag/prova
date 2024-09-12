@@ -17,6 +17,7 @@ url_data = {
 @app.route('/')
 def h():
     print('hello world!')
+    return 'hello world!'
 
 @app.route('/fetch-data', methods=['GET'])
 def fetch_data():
